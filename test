@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar{
+    position: fixed;
+    width:30% ;
+    height: 100%;
+    left: -30%;
+    background-color: black;}
+
+#sidebar li{
+   
+    font-size: 3vh;
+    padding: 20px;
+    margin: auto;
+    list-style: none;
+}
+
+.toggle-btn{
+    position:absolute ;
+    left: 105%;
+    top: 15px;
+}
+
+.toggle-btn span{
+    background-color: black;
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 3px;
+}
+
+#sidebar.active{
+left: 0;
+}
+
+    
+    <div id="sidebar" class oneclick="togglemenu()">
+        <div class="toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ASHLAND</a></li>
+          <li><a href="">PORTLAND</a></li> 
+          <li><a href="">LEBANON</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">CATERING</a></li>
+          <li><a href="">SHOP</a></li>
+          <li><a href="">E-GIFT</a></li>
+          <li><a href="">PRESS</a></li>
+        </ul>
+
+    </div>
