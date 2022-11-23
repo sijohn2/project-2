@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-<body>
+  <head>
+    <title>Sammich</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-    <div class="wordmark"><img src="images/banner+copy.png"/></div>
-    <div class="navbar">
+      <div class="wordmark"><img src="images/banner+copy.png" /></div>
+      <div class="navbar desktop">
         <ul>
           <li><a href="">HOME</a></li>
           <li><a href="">LOCATIONS</a></li>
@@ -14,39 +18,89 @@
           <li><a href="">SHOP</a></li>
           <li><a href="">PRESS</a></li>
         </ul>
-    </div>
-</header>
-<main>
-    <div class="hero-img">
-<img src="images/sammichcover.png" alt="sammich sandwiches">
-    </div>
-<section>
-    <h5>TAP BEER AT OUR ASHLAND AND PORTLAND LOCATIONS!</h5>
-    <p>OUR MEATS ARE SMOKED, BRINED, POACHED, ETC. IN-HOUSE. </p>
-</section> 
+      </div>
+      <nav class="nav">
+        <div class="icon">
+          <div class="hamburger"></div>
+        </div>
+        <div class="menu-mobile">
+          <a href="#intro-section">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-img">
+        <img src="images/sammichcover.png" alt="sammich sandwiches" />
+      </div>
+      <section class="location-info">
+        <h5>TAP BEER AT OUR ASHLAND AND PORTLAND LOCATIONS!</h5>
+        <p>OUR MEATS ARE SMOKED, BRINED, POACHED, ETC. IN-HOUSE.</p>
+      </section>
+      <section class="slideshow">
+        <h3>POPULAR ITEMS</h3>
 
-    <h3>POPULAR ITEMS</h3>
-
-    <h5>WE SERVE VEGETARIAN, GLUTEN FREE AND PROTEIN STYLE SAMMICHES. ASK US!</h5>
-    <p>WE REMAIN DILIGENT ABOUT KEEPING OUR EMPLOYEES HEALTHY AND WHILE SERVING OUR CUSTOMERS. PRECAUTIONARY MEASURES HAVE BEEN TAKEN AND WE'VE CLOSED OUR DINING ROOM BUT WE ARE STILL OPEN FOR TO GO, CURBSIDE PICKUP AND DELIVERY: IN-HOUSE OR DOOR DASH (FEES APPLY). THE HEALTH AND SAFETY OF OUR COMMUNITY COMES FIRST. WE ARE STILL OPEN DURING OUR REGULAR HOURS.
-    </p>
-   
-    <div class="about-section">
+        <div class="my-slick">
+          <div class="slide-card">
+            <img src="http://placekitten.com/200/200" />
+            <p>description</p>
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/200/201" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/201/200" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/201/201" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/201/201" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/200/202" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/200/200" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/200/201" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/201/200" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/201/201" />
+          </div>
+          <div class="slide-card">
+            <img src="http://placekitten.com/200/202" />
+          </div>
+        </div>
+      </section>
+      <section class="health-info">
+        <h5>WE SERVE VEGETARIAN, GLUTEN FREE AND PROTEIN STYLE SAMMICHES. ASK US!</h5>
+        <p>WE REMAIN DILIGENT ABOUT KEEPING OUR EMPLOYEES HEALTHY AND WHILE SERVING OUR CUSTOMERS. PRECAUTIONARY MEASURES HAVE BEEN TAKEN AND WE'VE CLOSED OUR DINING ROOM BUT WE ARE STILL OPEN FOR TO GO, CURBSIDE PICKUP AND DELIVERY: IN-HOUSE OR DOOR DASH (FEES APPLY). THE HEALTH AND SAFETY OF OUR COMMUNITY COMES FIRST. WE ARE STILL OPEN DURING OUR REGULAR HOURS.</p>
+      </section>
+      <div class="about-section">
         <div class="left">
-            <img src="images/about-sammich.png" alt="about sammich">
+          <img src="images/about-sammich.png" alt="about sammich" />
         </div>
         <div class="right">
-            <h3>ABOUT US</h3>
-            <p>All our pastrami is brined and made in-house. We use regional produce when available and local bakeries for all our bread. Our goal is to provide the best quality sandwiches and to be known as the best pastrami in the nation. Pastrami Zombie is our food truck spin off of our Sammich Chicago Italian eatery, located in Ashland, Oregon.</p>
-        
-        <a href="#" class="darklink">
-            <div class="LM-btn"><p>Learn More</p></div></a>
+          <h3>ABOUT US</h3>
+          <p>All our pastrami is brined and made in-house. We use regional produce when available and local bakeries for all our bread. Our goal is to provide the best quality sandwiches and to be known as the best pastrami in the nation. Pastrami Zombie is our food truck spin off of our Sammich Chicago Italian eatery, located in Ashland, Oregon.</p>
 
+          <a href="#" class="darklink">
+            <div class="LM-btn"><p>Learn More</p></div></a
+          >
         </div>
-    </div>
+      </div>
+    </main>
 
-</main>
-
-
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
