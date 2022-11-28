@@ -4,35 +4,36 @@ font-family: sofia-pro, sans-serif;
 font-weight: 700;
 font-style: normal;
 
+Sofia Pro Condensed Light
+font-family: sofia-pro-condensed, sans-serif;
+font-weight: 300;
+font-style: normal;
 
-Sofia Pro Bold italic
-font-family: sofia-pro, sans-serif;
-font-weight: 700;
-font-style: italic;
 
+Sofia Pro Condensed Medium
+font-family: sofia-pro-condensed, sans-serif;
+font-weight: 500;
+font-style: normal;
+
+Sofia Pro Condensed Regular
+font-family: sofia-pro-condensed, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Sofia Pro Condensed Semi Bold
+font-family: sofia-pro-condensed, sans-serif;
+font-weight: 600;
+font-style: normal;
 
 Sofia Pro Regular
 font-family: sofia-pro, sans-serif;
 font-weight: 400;
 font-style: normal;
 
-
-Sofia Pro Regular italic
-font-family: sofia-pro, sans-serif;
-font-weight: 400;
-font-style: italic;
-
-
 Sofia Pro Soft Bold
 font-family: sofia-pro-soft, sans-serif;
 font-weight: 700;
 font-style: normal;
-
-
-Sofia Pro Soft Bold Italic
-font-family: sofia-pro-soft, sans-serif;
-font-weight: 700;
-font-style: italic;
 
 
 Sofia Pro Soft Regular
@@ -49,6 +50,12 @@ font-style: italic;
 * {
   box-sizing: border-box;
 }
+
+h3{
+    font-family: sofia-pro-bold, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 40px;}
 body {
   margin: 0;
 }
@@ -167,7 +174,14 @@ a:hover {
   width: 220px;
 }
 @media screen and (max-width: 768px) {
-  .icon {
+    
+    .location-info{
+        margin:0;
+        padding:0;
+        font-size: 10px;
+    }
+
+    .icon {
     position: fixed;
     cursor: pointer;
     top: 40px;
@@ -235,7 +249,7 @@ a:hover {
     width: 100%;
     z-index: 999;
     padding-top: 150px;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'sofia-pro', sans-serif;
     text-align: center;
   }
 
@@ -262,3 +276,40 @@ a:hover {
     display: none;
   }
 }
+
+.contact {
+justify-content: center;
+background-color: black;
+display: flex;
+}
+  
+  .contactform .inputbox input,
+  .contactform .inputbox textarea {
+    width: 400px;
+    padding: 5px 0;
+    font: 18px;
+    margin: 10px 0;
+    outline: none;
+    resize: none;
+  }
+  
+  .contactform .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: black;
+  }
+
+  
+  .contactform .inputbox input[type='submit'] {
+    width: 120px;
+    background: wheat;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+  }
