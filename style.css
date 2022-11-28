@@ -339,4 +339,9 @@ display: flex;
 
   
   .dropdown:hover .dropdown-content {display: block;}
+
+.right{
+   text-align: center;
+   margin: none;
+}
   
