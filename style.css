@@ -81,7 +81,7 @@ header {
   color: black;
   display: block;
   padding: 25px 20px;
-  font-size: 15px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -174,7 +174,6 @@ a:hover {
   width: 220px;
 }
 @media screen and (max-width: 768px) {
-    
     .location-info{
         margin:0;
         padding:0;
@@ -278,7 +277,6 @@ a:hover {
 }
 
 .contact {
-justify-content: center;
 background-color: black;
 display: flex;
 }
@@ -313,3 +311,32 @@ display: flex;
     padding: 10px;
     font-size: 18px;
   }
+
+  .dropbtn {
+    font-size: 15px;
+    border: none;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: white;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+   
+  }
+  
+  .dropdown-content a {
+    padding: 7px 24px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
