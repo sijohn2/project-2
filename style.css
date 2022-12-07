@@ -11,9 +11,8 @@ h5 {
   font-size: 26px;
   margin: 10px;
 }
-h4{
+h4 {
   color: greenyellow;
-
 }
 
 h2 {
@@ -23,13 +22,13 @@ h2 {
   font-style: normal;
   font-size: 26px;
 }
-.text{
+.text {
   font-size: 16px;
 }
 
-.type{
-margin: 40px;
-font-size: 26px;
+.type {
+  margin: 40px;
+  font-size: 26px;
 }
 
 p {
@@ -228,7 +227,7 @@ form {
 .contactform .inputbox input[type='submit'] {
   width: 120px;
   background: white;
-  color:black;
+  color: black;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
@@ -377,10 +376,32 @@ form {
   .menu-mobile a:hover {
     color: greenyellow;
   }
+  .menu-mobile a.sublink {
+    height: 20px;
+    margin-bottom: 20px;
+  }
 
   .desktop,
   .menu-desktop,
   .menu-mobile {
     display: none;
+  }
+  .health-info p {
+    font-size: 16px;
+  }
+  .about-section {
+    flex-direction: column;
+    width: 90%;
+    margin: 0;
+  }
+  .about-section .right {
+    padding: 0;
+  }
+  .about-section .right p {
+    margin: 0;
+  }
+  .about-section {
+    margin: 0;
+    border: none;
   }
 }

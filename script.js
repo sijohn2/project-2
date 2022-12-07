@@ -14,8 +14,8 @@ $(function () {
       {
         breakpoint: 1024,
         settings: {
-          centerMode: true,
-          slidesToShow: 4,
+          centerMode: false,
+          slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
           dots: true
@@ -24,15 +24,16 @@ $(function () {
       {
         breakpoint: 600,
         settings: {
-          centerMode: true,
-          slidesToShow: 2,
-          slidesToScroll: 1
+          centerMode: false,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true
         }
       },
       {
         breakpoint: 480,
         settings: {
-          centerMode: true,
+          centerMode: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }
@@ -45,7 +46,6 @@ $(function () {
 
   // End of Your Code . Don't delete that line below!!
 })
-
 ;('use strict')
 
 function toggleIcon() {
