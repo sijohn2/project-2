@@ -53,6 +53,7 @@ h3 {
   font-size: 40px;
   margin: 2px;
 }
+
 .container {
   max-width: 1000px;
 }
@@ -201,9 +202,9 @@ form {
 }
 .contactform .inputbox input,
 .contactform .inputbox textarea {
-  padding: 5px 0;
+  padding: 8px 10px;
   font: 18px;
-  outline: none;
+  margin-left: 50px;
 }
 .columns.social {
   justify-content: center;
@@ -212,12 +213,12 @@ form {
 }
 .columns.social a {
   color: white;
-  padding: 0 10px;
+  padding: 0 20px;
+
+
 }
 .contactform .inputbox span {
   position: absolute;
-  left: 0;
-  padding: 5px 0;
   font-size: 16px;
   pointer-events: none;
   transition: 0.5s;
@@ -225,11 +226,11 @@ form {
 }
 
 .contactform .inputbox input[type='submit'] {
-  width: 120px;
+  width: 100px;
+  height: 37px;
   background: white;
   color: black;
   cursor: pointer;
-  padding: 10px;
   font-size: 18px;
 }
 .contactform h2 {
@@ -237,7 +238,7 @@ form {
 }
 .contactform .columns {
   width: 70%;
-  margin: auto;
+margin-left: 200px;
 }
 .contactform .columns div {
   flex: 1;
@@ -404,4 +405,5 @@ form {
     margin: 0;
     border: none;
   }
+  
 }
